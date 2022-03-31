@@ -19,7 +19,7 @@ public class playermovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxcollider = GetComponent<BoxCollider2D>();
-    
+        float anan = 5f;
     }
 
     private void Update() 
